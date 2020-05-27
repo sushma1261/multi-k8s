@@ -5,7 +5,7 @@ metadata:
 spec:
   replicas: 3
   selector:
-    matchLabels: 
+    matchLabels:
       component: web
   template:
     metadata:
@@ -15,5 +15,5 @@ spec:
       containers:
         - name: client
           image: sushma1261/multi-client
-          ports: 
+          ports:
             - containerPort: 3000
